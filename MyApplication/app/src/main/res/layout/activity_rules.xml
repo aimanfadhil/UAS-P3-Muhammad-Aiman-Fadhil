@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/tugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:maxLength="3"
+        android:inputType="numberDecimal"
+        android:hint="Tugas" />
+    <EditText
+        android:id="@+id/kuis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:maxLength="3"
+        android:inputType="numberDecimal"
+        android:hint="Kuis" />
+    <EditText
+        android:id="@+id/uts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:maxLength="3"
+        android:inputType="numberDecimal"
+        android:hint="UTS" />
+    <EditText
+        android:id="@+id/uas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:maxLength="3"
+        android:inputType="numberDecimal"
+        android:hint="UAS" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="Back"
+            android:id="@+id/r_back"
+            android:layout_weight="0.47" />
+
+        <Button
+            android:id="@+id/save_rules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#6b7fc8"
+            android:text="Save"
+            android:layout_weight="0.58" />
+
+    </LinearLayout>
+</LinearLayout>

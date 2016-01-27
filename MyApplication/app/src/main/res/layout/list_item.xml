@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:textAlignment="center"
+    android:background="#ba7711">
+
+    <!-- Name Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NPM"
+        android:id="@+id/textView"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/npm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#43bd00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:id="@+id/textView2"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#43bd00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <!-- Email label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/textView3"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#acacac"
+        android:textAlignment="center" />
+
+    <!-- Mobile number label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textAlignment="center"
+        android:text="Mobile: "/>
+
+    <TextView
+        android:id="@+id/hp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GPA"
+        android:id="@+id/textView5"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/gpa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+{
+	"kontak": [
+		{
+			"id": "123",
+			"nama": "asdasd",
+			"email": "oaisdpos",
+			"alamat": "asido",
+			"hp": "poaisd",
+			"jk": "",
+			"tugas": "70",
+			"kuis": "80",
+			"uts": "90",
+			"uas": "100",
+			"gpa": "90.5"
+		}
+	]
+}
